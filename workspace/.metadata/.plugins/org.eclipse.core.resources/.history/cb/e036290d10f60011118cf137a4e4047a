@@ -1,0 +1,26 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Sep 3, 2012
+ *      Author: flak
+ */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int xVal, yVal, zVal;
+
+	cout << "Enter x value: ";
+	cin >> xVal;
+	cout << "Enter y value: ";
+	cin >> yVal;
+	cout << "Enter z value: ";
+	cin >> zVal;
+
+	cout << "3x = " << 3*xVal << " 3x + y = " << 3*xVal+yVal;
+	cout << " (x + y)/7 = " << (x+y)/7 << " (3x + y)/(z + 2) = " << (3x+y)/(z+2);
+
+
+	return 0;
+}

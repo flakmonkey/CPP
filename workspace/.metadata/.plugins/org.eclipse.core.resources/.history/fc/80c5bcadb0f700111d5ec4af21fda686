@@ -1,0 +1,45 @@
+//============================================================================
+// Name        : METS.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+
+int activity
+double weight, minutes;
+const int SLEEPING = 1;
+const int WALKING = 2;
+const int BASKETBALL = 8;
+
+int main() {
+	cout << "1. Sleeping\n2. Walking\n3. Basketball" << endl;
+	cout << ">> ";
+	cin >> activity;
+	cout << "User weight in pounds: ";
+	cin >> weight/2.2; // convert from lbs to kg
+	cout << "User workout duration: ";
+	cin >> minutes;
+
+	switch(choice) {
+	case 1:
+		cout << "You have burned " << (0.0175 * SLEEPING * weight) * minutes
+			  << " calories!";
+		break;
+	case 2:
+		//walking
+		break;
+	case 3:
+		//basketball
+		break;
+	default:
+		cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+		break;
+	}
+	return 0;
+}

@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : METS.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int choice;
+
+int main() {
+	choice = 0;
+	while(!choice) {
+		cout << "1. Sleeping\n2. Walking\n3. Basketball" << endl;
+		cout << ">> "
+	}
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

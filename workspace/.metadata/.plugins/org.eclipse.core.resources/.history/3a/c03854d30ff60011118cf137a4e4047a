@@ -1,0 +1,24 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Sep 3, 2012
+ *      Author: flak
+ */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int xVal, yVal, zVal;
+
+	cout << "Enter x value: ";
+	cin >> xVal;
+	cout << "Enter y value: ";
+	cin >> yVal;
+	cout << "Enter z value: ";
+	cin >> zVal;
+	cout << 3*xVal;
+
+
+	return 0;
+}

@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project METS ****
+
+make all 
+Building file: ../src/METS.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/METS.d" -MT"src/METS.d" -o "src/METS.o" "../src/METS.cpp"
+Finished building: ../src/METS.cpp
+ 
+Building target: METS
+Invoking: GCC C++ Linker
+g++  -o "METS"  ./src/METS.o   
+Finished building target: METS
+ 
+
+**** Build Finished ****

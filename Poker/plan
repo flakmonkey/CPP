@@ -1,0 +1,49 @@
+Game
+	States:
+		pre-flop
+		flop
+		turn
+		river
+	Players
+		dealer
+		big blind
+		little blind
+	Deck
+	Hand
+	Rules
+	Actions:
+		play
+	
+Deck
+	Shuffled = state
+	set of 52 unique cards
+	Shuffle
+	Cut
+	Discard //not sre
+
+Hand
+	2 pocket cards
+	3 flop cards
+	1 turn card
+	1 river card
+	all cards must be unique
+	
+	Actions:
+		chose 5 best cards -- from 7 total
+		insert cards -- for each round
+
+Cards
+	suit
+	value
+	
+Player
+	2 pocket cards
+	chips
+	hand
+	Actions:
+		get hand
+		
+		bet
+		fold
+		check
+		raise

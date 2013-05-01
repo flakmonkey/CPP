@@ -1,0 +1,19 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Sep 3, 2012
+ *      Author: flak
+ */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int xVal;
+
+	cout << "Enter x value: ";
+	cin >> xVal;
+	cout << xVal;
+
+	return 0;
+}

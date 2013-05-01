@@ -1,0 +1,23 @@
+
+**** Build of configuration Debug for project HelloWorld ****
+
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.d" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: GCC C++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project HelloWorld ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
